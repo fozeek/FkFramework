@@ -1,0 +1,31 @@
+ORM
+	- Mise en cache des requetes
+	- Mise en place des shémas
+	- Faire des création de shéma automatiques
+	- Gérer les formulaires auto
+	- Mise en place de la class Util\Collection pour tous les retours de requetes
+	- enelver les systemes d'options sur les collection => Collection le fait de lui-meme ( ex : orderBy, limit, etc...) Cela rend plus lend le precessus, mais les données brutes sont mise en cache => rapidité pour les prochains traitements
+	- Créer un gestionnaires d'erreur complet
+	- Créer un debuggeur pour connaitre l'état à tout instant du module (requetes effectué, tps, données en cache, etc...)
+
+	- Créer l'archi qui permet d'aller cherché les classes entity et table dans chaque modules (le rendre dynamique) (gestion des conflits ? On garde les namespaces ? alias auto ?)
+
+Util
+	- Implémenter les fonctions de Collection
+
+Event
+	- Améliorer et tester toute l'architecture
+
+Mvc
+	- Améliorer la gestions des components (Adapter a chaque fois ? Comment les rendre indépendants ? QUID de la référence vers app ? Dépendances directes ou juste vers app ?)
+	- Mettre en place tous les triggers
+	- Réfléchir à une archi plus orienté event (dispatch, etc)
+	- Mettre en place la gestion des erreurs, et faire un module pour les templates qui afficheront ces erreurs
+
+Error
+	- Gestion des template si fatale (ex : pas trouvé de controller)
+	- Gestion des niveaux de criticité
+
+View
+	- Créer le moteur de template (cf : le projet tplengine)
+	- Gestion complete des helpers

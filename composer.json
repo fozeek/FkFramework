@@ -1,0 +1,17 @@
+{
+	"name": "fozeek/FkFramework",
+	"description": "The Application for Fozeek Framework ",
+	"keywords": ["application", "framework", "fozeek"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4.0",
+		"fozeek/framework": "dev-master"
+	},
+	"authors": [
+        {
+            "name": "Quentin Deneuve",
+            "email": "quentin.deneuve@gmail.com"
+        }
+    ],
+	"minimum-stability": "stable"
+}

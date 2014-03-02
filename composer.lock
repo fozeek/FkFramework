@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "7575c09ccfcf76b5b458b63e2e197d48",
+    "packages": [
+        {
+            "name": "fozeek/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fozeek/framework.git",
+                "reference": "25cb69db1a9dce0c288e389a6a8d3c2cd332f2e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fozeek/framework/zipball/25cb69db1a9dce0c288e389a6a8d3c2cd332f2e3",
+                "reference": "25cb69db1a9dce0c288e389a6a8d3c2cd332f2e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Fk": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Quentin Deneuve",
+                    "email": "quentin.deneuve@gmail.com"
+                }
+            ],
+            "description": "The Fozeek Framework.",
+            "keywords": [
+                "fk",
+                "fozeek",
+                "framework"
+            ],
+            "time": "2014-03-02 10:50:31"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fozeek/framework": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
